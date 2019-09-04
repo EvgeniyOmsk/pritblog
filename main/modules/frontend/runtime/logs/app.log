@@ -1,0 +1,3610 @@
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 14:50:19 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52322'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567349419.5421
+    'REQUEST_TIME' => 1567349419
+]
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 14:50:19 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52322'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/assets/455ac06b/css/bootstrap.css'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567349419.8211
+    'REQUEST_TIME' => 1567349419
+]
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 14:50:19 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52323'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/css/site.css'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567349419.8205
+    'REQUEST_TIME' => 1567349419
+]
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 14:50:19 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52325'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/assets/d8f1e134/yii.js'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567349419.8501
+    'REQUEST_TIME' => 1567349419
+]
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 14:50:19 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52324'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/assets/38c4d4cb/jquery.js'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567349419.8393
+    'REQUEST_TIME' => 1567349419
+]
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 14:50:19 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52326'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/assets/455ac06b/js/bootstrap.js'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567349419.8621
+    'REQUEST_TIME' => 1567349419
+]
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 14:50:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 14:50:19 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52326'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567349419.9281
+    'REQUEST_TIME' => 1567349419
+]
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:10:38 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52544'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350638.3168
+    'REQUEST_TIME' => 1567350638
+]
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:10:38 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52545'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/css/site.css'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350638.5943
+    'REQUEST_TIME' => 1567350638
+]
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:10:38 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52544'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/assets/455ac06b/css/bootstrap.css'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350638.5891
+    'REQUEST_TIME' => 1567350638
+]
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:10:38 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52547'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/assets/d8f1e134/yii.js'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350638.6171
+    'REQUEST_TIME' => 1567350638
+]
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:10:38 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52546'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/assets/38c4d4cb/jquery.js'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350638.6154
+    'REQUEST_TIME' => 1567350638
+]
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:10:38 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52548'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/assets/455ac06b/js/bootstrap.js'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350638.6302
+    'REQUEST_TIME' => 1567350638
+]
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:10:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:10:38 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52548'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350638.7415
+    'REQUEST_TIME' => 1567350638
+]
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:11:56 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52610'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/css/site.css'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350716.3995
+    'REQUEST_TIME' => 1567350716
+]
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:11:56 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/frontend/web/css/site.css'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52610'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/assets/455ac06b/css/bootstrap.css'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350716.4867
+    'REQUEST_TIME' => 1567350716
+]
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:11:56 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/frontend/web/css/site.css'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52611'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/css/site.css'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350716.4929
+    'REQUEST_TIME' => 1567350716
+]
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:11:56 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/frontend/web/css/site.css'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52613'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/assets/d8f1e134/yii.js'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350716.5191
+    'REQUEST_TIME' => 1567350716
+]
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:11:56 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/frontend/web/css/site.css'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52612'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/assets/38c4d4cb/jquery.js'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350716.5182
+    'REQUEST_TIME' => 1567350716
+]
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:11:56 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/frontend/web/css/site.css'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52614'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/assets/455ac06b/js/bootstrap.js'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350716.5441
+    'REQUEST_TIME' => 1567350716
+]
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 15:11:56 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 15:11:56 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52614'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/css/site.css'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1567350716.698
+    'REQUEST_TIME' => 1567350716
+]
+2019-09-01 16:23:26 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 16:23:26 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:23:26 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56320'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355006.6031
+    'REQUEST_TIME' => 1567355006
+]
+2019-09-01 16:23:26 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 16:23:26 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:23:26 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56320'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355006.9413
+    'REQUEST_TIME' => 1567355006
+]
+2019-09-01 16:24:01 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 16:24:01 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:01 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56320'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355041.2623
+    'REQUEST_TIME' => 1567355041
+]
+2019-09-01 16:24:01 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 16:24:01 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:01 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56320'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355041.6135
+    'REQUEST_TIME' => 1567355041
+]
+2019-09-01 16:24:03 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:162
+2019-09-01 16:24:03 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:03 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56320'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355043.0992
+    'REQUEST_TIME' => 1567355043
+]
+2019-09-01 16:24:03 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:162
+2019-09-01 16:24:03 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:03 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56321'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355043.3633
+    'REQUEST_TIME' => 1567355043
+]
+2019-09-01 16:24:04 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:98
+2019-09-01 16:24:04 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:04 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56321'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355044.8346
+    'REQUEST_TIME' => 1567355044
+]
+2019-09-01 16:24:05 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:98
+2019-09-01 16:24:05 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:05 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56321'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355045.0795
+    'REQUEST_TIME' => 1567355045
+]
+2019-09-01 16:24:06 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:133
+2019-09-01 16:24:06 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:06 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56321'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355046.0919
+    'REQUEST_TIME' => 1567355046
+]
+2019-09-01 16:24:06 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:06 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '5d6bf0a66293d7.25618914'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56321'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fcaptcha&v=5d6bf0a66293d7.25618914'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=5d6bf0a66293d7.25618914'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355046.4363
+    'REQUEST_TIME' => 1567355046
+]
+2019-09-01 16:24:06 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:133
+2019-09-01 16:24:06 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:06 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56321'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355046.6817
+    'REQUEST_TIME' => 1567355046
+]
+2019-09-01 16:24:09 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:145
+2019-09-01 16:24:09 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:09 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56321'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355049.4305
+    'REQUEST_TIME' => 1567355049
+]
+2019-09-01 16:24:09 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:145
+2019-09-01 16:24:09 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:09 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56321'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355049.5989
+    'REQUEST_TIME' => 1567355049
+]
+2019-09-01 16:24:11 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 16:24:11 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:11 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56321'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355051.0419
+    'REQUEST_TIME' => 1567355051
+]
+2019-09-01 16:24:11 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 16:24:11 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:11 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56321'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355051.1335
+    'REQUEST_TIME' => 1567355051
+]
+2019-09-01 16:24:14 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:98
+2019-09-01 16:24:14 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:14 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site%2Findex'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56321'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355054.1678
+    'REQUEST_TIME' => 1567355054
+]
+2019-09-01 16:24:14 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:98
+2019-09-01 16:24:14 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:24:14 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56321'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355054.3341
+    'REQUEST_TIME' => 1567355054
+]
+2019-09-01 16:25:51 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:98
+2019-09-01 16:25:51 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:25:51 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-frontend' => '6KoO9XJClZkfcVep4A6UQCAKEp4nhdJH8qu0R7RtDwyOyzjFOC_CoGglIdCvVt8YFEJV9XDCtwC93cEI0whnOQ=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'funcode666'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://pritblog.test'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '242'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56353'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '242'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355151.752
+    'REQUEST_TIME' => 1567355151
+]
+2019-09-01 16:25:52 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:98
+2019-09-01 16:25:52 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:25:52 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56353'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355152.0851
+    'REQUEST_TIME' => 1567355152
+]
+2019-09-01 16:25:54 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:162
+2019-09-01 16:25:54 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:25:54 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56353'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355154.7819
+    'REQUEST_TIME' => 1567355154
+]
+2019-09-01 16:25:54 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:162
+2019-09-01 16:25:54 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:25:54 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56353'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355154.9736
+    'REQUEST_TIME' => 1567355154
+]
+2019-09-01 16:26:22 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:26:21 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'i85kRgCFzqMHyyxBe1ocd4D27z11UMgIcZ85iH1rrTrtr1J2SuiZmnCfWjg0AlcvtL6oViIXrU8-6UzHGg7FDw=='
+    'SignupForm' => [
+        'username' => 'admin'
+        'email' => 'pritevgeniy@gmail.com'
+        'password' => 'funcode666'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+    'success' => 'Thank you for registration. Please check your inbox for verification email.'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://pritblog.test'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '235'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56353'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '235'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355181.2717
+    'REQUEST_TIME' => 1567355181
+]
+2019-09-01 16:26:22 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 16:26:22 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:26:22 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56353'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355182.2445
+    'REQUEST_TIME' => 1567355182
+]
+2019-09-01 16:26:22 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 16:26:22 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:26:22 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56353'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355182.4005
+    'REQUEST_TIME' => 1567355182
+]
+2019-09-01 16:29:00 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "3Dsite/verify-email". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('3Dsite/verify-e...', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-09-01 16:29:00 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+2019-09-01 16:29:00 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:29:00 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][info][application] $_GET = [
+    'r' => '3Dsite/verify-email'
+    'amp;token' => '3DH7bOYvTgiA_-ggbF=XNSny7ykb0yE5RPK_1567355182'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56367'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=3Dsite%2Fverify-email&amp;token=3DH7bOYvTgiA_-ggbF=XNSny7ykb0yE5RPK_1567355182'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=3Dsite%2Fverify-email&amp;token=3DH7bOYvTgiA_-ggbF=XNSny7ykb0yE5RPK_1567355182'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355340.611
+    'REQUEST_TIME' => 1567355340
+]
+2019-09-01 16:29:00 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "3Dsite/verify-email". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('3Dsite/verify-e...', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-09-01 16:29:00 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+2019-09-01 16:29:00 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:29:00 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][info][application] $_GET = [
+    'r' => '3Dsite/verify-email'
+    'amp;token' => '3DH7bOYvTgiA_-ggbF=XNSny7ykb0yE5RPK_1567355182'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56367'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=3Dsite%2Fverify-email&amp;token=3DH7bOYvTgiA_-ggbF=XNSny7ykb0yE5RPK_1567355182'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=3Dsite%2Fverify-email&amp;token=3DH7bOYvTgiA_-ggbF=XNSny7ykb0yE5RPK_1567355182'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355340.8958
+    'REQUEST_TIME' => 1567355340
+]
+2019-09-01 16:29:33 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "3Dsite/veri=fy-email". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('3Dsite/veri=fy-...', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-09-01 16:29:34 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+2019-09-01 16:29:34 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:29:33 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][info][application] $_GET = [
+    'r' => '3Dsite/veri=fy-email'
+    'amp;token' => '3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56367'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=3Dsite%2Fveri=fy-email&amp;token=3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=3Dsite%2Fveri=fy-email&amp;token=3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355373.9641
+    'REQUEST_TIME' => 1567355373
+]
+2019-09-01 16:29:34 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "3Dsite/veri=fy-email". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('3Dsite/veri=fy-...', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-09-01 16:29:34 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+2019-09-01 16:29:34 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:29:34 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][info][application] $_GET = [
+    'r' => '3Dsite/veri=fy-email'
+    'amp;token' => '3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56367'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=3Dsite%2Fveri=fy-email&amp;token=3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=3Dsite%2Fveri=fy-email&amp;token=3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355374.1383
+    'REQUEST_TIME' => 1567355374
+]
+2019-09-01 16:29:50 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "3Dsite/veri=fy-email". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('3Dsite/veri=fy-...', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-09-01 16:29:50 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+2019-09-01 16:29:50 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:29:50 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][info][application] $_GET = [
+    'r' => '3Dsite/veri=fy-email'
+    'token' => '3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56367'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=3Dsite%2Fveri=fy-email&token=3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=3Dsite%2Fveri=fy-email&token=3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355390.5943
+    'REQUEST_TIME' => 1567355390
+]
+2019-09-01 16:29:50 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "3Dsite/veri=fy-email". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('3Dsite/veri=fy-...', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-09-01 16:29:50 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+2019-09-01 16:29:50 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:29:50 [192.168.33.1][-][prpv1nqtadlser3ehjrc30eetn][info][application] $_GET = [
+    'r' => '3Dsite/veri=fy-email'
+    'token' => '3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56367'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=3Dsite%2Fveri=fy-email&token=3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=3Dsite%2Fveri=fy-email&token=3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355390.8182
+    'REQUEST_TIME' => 1567355390
+]
+2019-09-01 16:30:59 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 16:30:59 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:30:59 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site'
+    'verify-email' => ''
+    'token' => '3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56372'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site&verify-email&token=3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site&verify-email&token=3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355459.0802
+    'REQUEST_TIME' => 1567355459
+]
+2019-09-01 16:30:59 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 16:30:59 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:30:59 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site'
+    'verify-email' => ''
+    'token' => '3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56372'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site&verify-email&token=3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site&verify-email&token=3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355459.3055
+    'REQUEST_TIME' => 1567355459
+]
+2019-09-01 16:31:02 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:98
+2019-09-01 16:31:02 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:31:02 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site&verify-email&token=3DH7bOYvTgiA_-ggbFXNSny7ykb0yE5RPK_1567355182'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56372'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355462.9471
+    'REQUEST_TIME' => 1567355462
+]
+2019-09-01 16:31:03 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:98
+2019-09-01 16:31:03 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:31:03 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56372'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355463.1642
+    'REQUEST_TIME' => 1567355463
+]
+2019-09-01 16:31:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:98
+2019-09-01 16:31:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:31:18 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-frontend' => '5gJGftCqF35b-hpC0AV7nbChL_3X_aYFdE8YhnFxx96AY3BOmsdARyyubDufXTDFhOloloC6w0I7OW3JFhSv6w=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'funcode666'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://pritblog.test'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '242'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56372'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '242'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355478.9858
+    'REQUEST_TIME' => 1567355478
+]
+2019-09-01 16:31:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:98
+2019-09-01 16:31:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:31:19 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56372'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355479.1966
+    'REQUEST_TIME' => 1567355479
+]
+2019-09-01 16:32:32 [192.168.33.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:32:31 [192.168.33.1][1][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'fXtCL__FZUeIJTltEIzYZqG3uEoyGCxSMMZZtigZ9VAbGnQftagyfv9xTxRf1JM-lf__IWVfSRV_sCz5T3ydZQ=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'funcode666'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://pritblog.test'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '242'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56375'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '242'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355551.4435
+    'REQUEST_TIME' => 1567355551
+]
+2019-09-01 16:32:32 [192.168.33.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 16:32:32 [192.168.33.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:32:32 [192.168.33.1][1][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'lgujnt6vd8fnn6g4f4t8ha59j3'
+    '_identity-frontend' => '4028e77a79b47898700d5ea6a4b09bd605680a97e548518761359369217ac606a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-frontend' => '51c7cb7ee3634380fc633a2635343ecfed2e2cb0f5f062e389d927e6743b361da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"wefInlcc87LptbA1umopzArNlrnVQ2Ez\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=lgujnt6vd8fnn6g4f4t8ha59j3; _identity-frontend=4028e77a79b47898700d5ea6a4b09bd605680a97e548518761359369217ac606a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-frontend=51c7cb7ee3634380fc633a2635343ecfed2e2cb0f5f062e389d927e6743b361da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22wefInlcc87LptbA1umopzArNlrnVQ2Ez%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56375'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355552.2111
+    'REQUEST_TIME' => 1567355552
+]
+2019-09-01 16:32:32 [192.168.33.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-01 16:32:32 [192.168.33.1][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-01 16:32:32 [192.168.33.1][1][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'lgujnt6vd8fnn6g4f4t8ha59j3'
+    '_identity-frontend' => '4028e77a79b47898700d5ea6a4b09bd605680a97e548518761359369217ac606a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-frontend' => '51c7cb7ee3634380fc633a2635343ecfed2e2cb0f5f062e389d927e6743b361da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"wefInlcc87LptbA1umopzArNlrnVQ2Ez\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vvjoai'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=lgujnt6vd8fnn6g4f4t8ha59j3; _identity-frontend=4028e77a79b47898700d5ea6a4b09bd605680a97e548518761359369217ac606a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-frontend=51c7cb7ee3634380fc633a2635343ecfed2e2cb0f5f062e389d927e6743b361da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22wefInlcc87LptbA1umopzArNlrnVQ2Ez%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '56375'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567355552.364
+    'REQUEST_TIME' => 1567355552
+]
+2019-09-02 12:48:45 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-02 12:48:45 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-02 12:48:44 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '64912'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567428524.7132
+    'REQUEST_TIME' => 1567428524
+]
+2019-09-02 12:48:45 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /var/www/pritblog/frontend/views/layouts/main.php:80
+    in /var/www/pritblog/frontend/controllers/SiteController.php:77
+2019-09-02 12:48:45 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2019-09-02 12:48:45 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'prpv1nqtadlser3ehjrc30eetn'
+    '_csrf-frontend' => '252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'advanced-frontend=prpv1nqtadlser3ehjrc30eetn; _csrf-frontend=252fc895e71dd40b275b0cac56194f6c7644b999c4978615ba8ea94a02a61014a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fa60JmW9wTvyOXKX4HGkWGeGOvuOgeh5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '64914'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567428525.6409
+    'REQUEST_TIME' => 1567428525
+]
