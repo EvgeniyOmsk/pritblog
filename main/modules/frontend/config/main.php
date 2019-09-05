@@ -8,7 +8,7 @@ $params = array_merge(
 );
 
 $config = [
-    'id' => 'app.frontend',
+    'id' => 'frontend',
     'aliases' => [
         '@frontend' => '@main/modules/frontend'
     ],

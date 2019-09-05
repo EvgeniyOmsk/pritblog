@@ -8,11 +8,21 @@ $params = array_merge(
 );
 
 $config = [
-    'id' => 'app.frontend',
+    'id' => 'backend',
     'aliases' => [
         '@backend' => '@main/modules/backend'
     ],
     'basePath' => dirname(__DIR__),
+    'components' => [
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
+                ],
+            ],
+            'class' => 'yii\base\View'
+        ],
+    ],
     'params' => $params,
 ];
 

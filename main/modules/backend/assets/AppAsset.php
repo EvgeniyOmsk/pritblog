@@ -11,7 +11,7 @@ class AppAsset extends AssetBundle
 {
     public $sourcePath = '@backend/web/public';
     public $css = [
-        'css/site.css',
+        'css/backend.css',
     ];
     public $js = [
     ];
