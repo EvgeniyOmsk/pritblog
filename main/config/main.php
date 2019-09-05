@@ -61,6 +61,9 @@ $config = [
         'frontend' => [
             'class' => \main\modules\frontend\Module::class
         ],
+        'backend' => [
+            'class' => \main\modules\backend\Module::class
+        ],
     ],
     'params' => $params,
 ];

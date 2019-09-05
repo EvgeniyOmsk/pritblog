@@ -11,11 +11,5 @@ class Module extends \yii\base\Module
     {
         parent::init();
         \Yii::configure($this, require __DIR__ . '/config/main.php');
-
-//        $this->initView();
-//        $this->initAssets();
-//
-//        $this->signupData();
-//        $this->saveUtmToCookie();
     }
 }

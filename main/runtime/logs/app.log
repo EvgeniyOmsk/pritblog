@@ -66176,3 +66176,1278 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1567616977.5122
     'REQUEST_TIME' => 1567616977
 ]
+2019-09-05 13:00:28 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:00:28 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '51859'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567688428.9065
+    'REQUEST_TIME' => 1567688428
+]
+2019-09-05 13:09:59 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:09:59 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/site/about'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52328'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567688999.4793
+    'REQUEST_TIME' => 1567688999
+]
+2019-09-05 13:10:01 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:10:01 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/site/contact'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52329'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689001.5894
+    'REQUEST_TIME' => 1567689001
+]
+2019-09-05 13:10:02 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:10:02 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/site/about'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52329'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689002.44
+    'REQUEST_TIME' => 1567689002
+]
+2019-09-05 13:10:10 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:10:10 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/site/index'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52329'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689010.7936
+    'REQUEST_TIME' => 1567689010
+]
+2019-09-05 13:10:17 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "backend/site/index". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('backend/site/in...', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:10:17 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52331'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/backend/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689017.2014
+    'REQUEST_TIME' => 1567689017
+]
+2019-09-05 13:10:17 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:10:17 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/backend/site/index'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52331'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689017.3658
+    'REQUEST_TIME' => 1567689017
+]
+2019-09-05 13:10:17 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "backend/site/index". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('backend/site/in...', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:10:17 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52329'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/backend/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689017.366
+    'REQUEST_TIME' => 1567689017
+]
+2019-09-05 13:11:12 [192.168.33.1][-][-][error][yii\base\ErrorException:64] yii\base\ErrorException: main\modules\backend\Module::main(): Failed opening required '/var/www/pritblog/main/modules/backend/config/params.local.php' (include_path='.:/usr/share/php') in /var/www/pritblog/main/modules/backend/config/main.php:7
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-09-05 13:11:12 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52329'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/backend/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689072.2559
+    'REQUEST_TIME' => 1567689072
+]
+2019-09-05 13:11:12 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:11:12 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/backend/site/index'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52329'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689072.9096
+    'REQUEST_TIME' => 1567689072
+]
+2019-09-05 13:11:12 [192.168.33.1][-][-][error][yii\base\ErrorException:64] yii\base\ErrorException: main\modules\backend\Module::main(): Failed opening required '/var/www/pritblog/main/modules/backend/config/params.local.php' (include_path='.:/usr/share/php') in /var/www/pritblog/main/modules/backend/config/main.php:7
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-09-05 13:11:12 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52331'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/backend/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689072.9115
+    'REQUEST_TIME' => 1567689072
+]
+2019-09-05 13:11:44 [192.168.33.1][1][r6e3qiqumftfl1l18ablm6bc0v][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'backend\assets\AppAsset' in file: /var/www/pritblog/main/modules/backend/assets/AppAsset.php. Namespace missing? in /var/www/pritblog/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\assets\\...')
+#1 /var/www/pritblog/main/modules/backend/views/layouts/main.php(13): spl_autoload_call('backend\\assets\\...')
+#2 /var/www/pritblog/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/pritbl...')
+#3 /var/www/pritblog/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/pritbl...', Array)
+#4 /var/www/pritblog/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/pritbl...', Array, Object(main\modules\backend\controllers\SiteController))
+#5 /var/www/pritblog/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#6 /var/www/pritblog/main/modules/backend/controllers/SiteController.php(63): yii\base\Controller->render('index')
+#7 [internal function]: main\modules\backend\controllers\SiteController->actionIndex()
+#8 /var/www/pritblog/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/pritblog/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('backend/site/in...', Array)
+#12 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#14 {main}
+2019-09-05 13:11:44 [192.168.33.1][1][r6e3qiqumftfl1l18ablm6bc0v][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/app.frontend/site/captcha' => 'vuluwab'
+    '__captcha/app.frontend/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52331'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/backend/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689104.1308
+    'REQUEST_TIME' => 1567689104
+]
+2019-09-05 13:11:44 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:11:44 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/backend/site/index'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52331'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689104.6551
+    'REQUEST_TIME' => 1567689104
+]
+2019-09-05 13:11:44 [192.168.33.1][1][r6e3qiqumftfl1l18ablm6bc0v][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'backend\assets\AppAsset' in file: /var/www/pritblog/main/modules/backend/assets/AppAsset.php. Namespace missing? in /var/www/pritblog/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\assets\\...')
+#1 /var/www/pritblog/main/modules/backend/views/layouts/main.php(13): spl_autoload_call('backend\\assets\\...')
+#2 /var/www/pritblog/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/pritbl...')
+#3 /var/www/pritblog/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/pritbl...', Array)
+#4 /var/www/pritblog/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/var/www/pritbl...', Array, Object(main\modules\backend\controllers\SiteController))
+#5 /var/www/pritblog/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#6 /var/www/pritblog/main/modules/backend/controllers/SiteController.php(63): yii\base\Controller->render('index')
+#7 [internal function]: main\modules\backend\controllers\SiteController->actionIndex()
+#8 /var/www/pritblog/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/pritblog/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('backend/site/in...', Array)
+#12 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#14 {main}
+2019-09-05 13:11:44 [192.168.33.1][1][r6e3qiqumftfl1l18ablm6bc0v][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__captcha/app.frontend/site/captcha' => 'vuluwab'
+    '__captcha/app.frontend/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52329'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/backend/site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689104.6561
+    'REQUEST_TIME' => 1567689104
+]
+2019-09-05 13:12:18 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/44d5d860/css/site.css". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/44d5d860...', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:12:18 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/backend/site/index'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52329'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/44d5d860/css/site.css'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689138.7025
+    'REQUEST_TIME' => 1567689138
+]
+2019-09-05 13:12:18 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:12:18 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/backend/site/index'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52329'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689138.983
+    'REQUEST_TIME' => 1567689138
+]
+2019-09-05 13:12:29 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:12:29 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/site/index'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52331'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689149.7298
+    'REQUEST_TIME' => 1567689149
+]
+2019-09-05 13:12:41 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/44d5d860/css/site.css". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/44d5d860...', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:12:41 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/backend/site/index'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52331'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/44d5d860/css/site.css'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689161.9494
+    'REQUEST_TIME' => 1567689161
+]
+2019-09-05 13:12:42 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:12:42 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/backend/site/index'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52331'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689162.1577
+    'REQUEST_TIME' => 1567689162
+]
+2019-09-05 13:13:09 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/44d5d860/css/site.css". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/44d5d860...', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:13:09 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/backend/site/index'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52331'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/assets/44d5d860/css/site.css'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689189.74
+    'REQUEST_TIME' => 1567689189
+]
+2019-09-05 13:13:09 [192.168.33.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /var/www/pritblog/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/pritblog/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/pritblog/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/pritblog/web/index.php(11): yii\base\Application->run()
+#2 {main}
+2019-09-05 13:13:09 [192.168.33.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'fnfbfmhgpjf4m7u88ejqff1jjr'
+    '_identity-frontend' => 'fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h\",2592000]\";}'
+    '_csrf-gad' => '77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca:2:{i:0;s:9:\"_csrf-gad\";i:1;s:32:\"kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4\";}'
+    'gad-frontend' => 'r6e3qiqumftfl1l18ablm6bc0v'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=fnfbfmhgpjf4m7u88ejqff1jjr; _identity-frontend=fe83d97b156259fb3211ab3d66c1396534e6781947b31b1f7d6363bd02319a0ca%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jiPjWv5SOOB-Q9iYGgJq3gkynfecWM-h%22%2C2592000%5D%22%3B%7D; _csrf-gad=77a15e78c8a3dfa02c51fc9e25065b6783b913fd498da89bd5fc833deb37c75ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_csrf-gad%22%3Bi%3A1%3Bs%3A32%3A%22kQJYTlBrq8tLSHTEVx8PjwFxWVdeFWa4%22%3B%7D; gad-frontend=r6e3qiqumftfl1l18ablm6bc0v'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://pritblog.test/backend/site/index'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'pritblog.test'
+    'SCRIPT_FILENAME' => '/var/www/pritblog/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'pritblog.test'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.33.10'
+    'REMOTE_PORT' => '52331'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/pritblog/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1567689189.9878
+    'REQUEST_TIME' => 1567689189
+]

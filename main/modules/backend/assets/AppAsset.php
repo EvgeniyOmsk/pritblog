@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\assets;
+namespace main\modules\backend\assets;
 
 use yii\web\AssetBundle;
 
@@ -9,8 +9,7 @@ use yii\web\AssetBundle;
  */
 class AppAsset extends AssetBundle
 {
-    public $basePath = '@webroot';
-    public $baseUrl = '@web';
+    public $sourcePath = '@backend/web/public';
     public $css = [
         'css/site.css',
     ];
