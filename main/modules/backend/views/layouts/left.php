@@ -33,7 +33,7 @@
                     ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
                     ['label' => 'Index', 'icon' => 'file-code-o', 'url' => ['/backend/site/index']],
                     ['label' => 'Profile', 'icon' => 'file-code-o', 'url' => ['/backend/site/profile']],
-                    ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/backend/debug']],
+                    ['label' => 'Blog', 'icon' => 'dashboard', 'url' => ['/backend/blog/index']],
                     ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
                     [
                         'label' => 'Some tools',

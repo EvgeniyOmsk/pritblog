@@ -102,4 +102,9 @@ class SiteController extends Controller
     {
         return $this->render('profile');
     }
+
+    public function actionError()
+    {
+        die('11');
+    }
 }

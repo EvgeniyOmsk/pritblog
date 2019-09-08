@@ -21,7 +21,7 @@ $config = [
                 ],
             ],
             'class' => 'yii\base\View'
-        ],
+        ]
     ],
     'params' => $params,
 ];

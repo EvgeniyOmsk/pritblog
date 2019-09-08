@@ -41,7 +41,7 @@ $config = [
             ],
         ],
         'errorHandler' => [
-            'errorAction' => 'site/error',
+            'errorAction' => 'frontend/site/error',
         ],
         'urlManager' => [
             'enablePrettyUrl' => true,
