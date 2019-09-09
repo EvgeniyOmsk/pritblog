@@ -34,6 +34,7 @@
                     ['label' => 'Index', 'icon' => 'file-code-o', 'url' => ['/backend/site/index']],
                     ['label' => 'Profile', 'icon' => 'file-code-o', 'url' => ['/backend/site/profile']],
                     ['label' => 'Blog', 'icon' => 'dashboard', 'url' => ['/backend/blog/index']],
+                    ['label' => 'Go Frontend', 'icon' => 'dashboard', 'url' => ['/frontend/site/index']],
                     ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
                     [
                         'label' => 'Some tools',

@@ -1,53 +1,64 @@
 <?php
+use yii\helpers\Url;
 
 /* @var $this yii\web\View */
 
 $this->title = 'My Yii Application';
 ?>
-<div class="site-index">
 
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
+<div class="col-md-12 page-body">
+  <div class="row">
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+    <div class="sub-title">
+      <h2>My Blog</h2>
+      <a href="contact.html"><i class="icon-envelope"></i></a>
     </div>
 
-    <div class="body-content">
 
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
+    <div class="col-md-12 content-page">
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
-            </div>
+      <?php foreach ($models as $iModel) {?>
+        <!-- Blog Post Start -->
+        <div class="col-md-12 blog-post" style="display: block;">
+          <div class="post-title">
+            <a href="<?= Url::to(['view', 'id' =>  $iModel->id]) ?>"><h1><?= $iModel->title ?></h1></a>
+          </div>
+          <div class="post-info">
+            <span><?= date('Y-m-d H:i', $iModel->created_at)?> <a href="#" target="_blank">Alex Parker</a></span>
+          </div>
+          <p><?= substr($iModel->description, 0, 400) . '...' ?></p>
+          <a href="<?= Url::to(['view', 'id' =>  $iModel->id]) ?>" class="button button-style button-anim fa fa-long-arrow-right"><span>Read More</span></a>
         </div>
+        <!-- Blog Post End -->
+      <?php } ?>
+
+
+      <div class="col-md-12 text-center">
+        <a href="javascript:void(0)" id="load-more-post" class="load-more-button">Load</a>
+        <div id="post-end-message"></div>
+      </div>
 
     </div>
+
+  </div>
+
+
+
+  <!-- Subscribe Form Start -->
+  <div class="col-md-8 col-md-offset-2">
+    <form id="mc-form" method="post" action="http://uipasta.us14.list-manage.com/subscribe/post?u=854825d502cdc101233c08a21&amp;id=86e84d44b7" novalidate="true">
+
+      <div class="subscribe-form margin-top-20">
+        <input id="mc-email" type="email" placeholder="Email Address" class="text-input" name="EMAIL">
+        <button class="submit-btn" type="submit">Submit</button>
+      </div>
+      <p>Subscribe to my weekly newsletter</p>
+      <label for="mc-email" class="mc-label"></label>
+    </form>
+
+  </div>
+  <!-- Subscribe Form End -->
+
 </div>

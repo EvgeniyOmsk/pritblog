@@ -16,11 +16,18 @@ use yii\grid\GridView;
                 'columns' => [
                     'id',
                     'title',
-                    'description',
+                    [
+                        'label' => 'description',
+                        'attribute' => 'description',
+                        'value'=> function ($model, $key, $index, $widget ) {
+                            $tagsByModel = \yii\helpers\ArrayHelper::map($model->tags, 'id', 'name');
+                            return substr($model->description, 0, 200) . '...'; //вывод тегов
+                        }
+                    ],
                     [
                         'label' => 'tags',
                         'attribute' => 'tags',
-                        'value'=>function ($model, $key, $index, $widget ) {
+                        'value'=> function ($model, $key, $index, $widget ) {
                             $tagsByModel = \yii\helpers\ArrayHelper::map($model->tags, 'id', 'name');
                             return implode(",", $tagsByModel); //вывод тегов
                         },

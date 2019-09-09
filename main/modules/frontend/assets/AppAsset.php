@@ -10,9 +10,11 @@ class AppAsset extends AssetBundle
 {
     public $sourcePath = '@frontend/web/public';
     public $css = [
-        'css/frontend.css',
+        'css/plugin.css',
+        'css/style.css'
     ];
     public $js = [
+        'js/plugin.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',

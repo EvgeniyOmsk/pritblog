@@ -1,10 +1,12 @@
 <?php
 namespace main\modules\frontend\controllers;
 
+use common\models\Blog;
 use main\modules\frontend\models\ResendVerificationEmailForm;
 use main\modules\frontend\models\VerifyEmailForm;
 use Yii;
 use yii\base\InvalidArgumentException;
+use yii\helpers\Url;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
@@ -41,13 +43,7 @@ class SiteController extends Controller
                         'roles' => ['@'],
                     ],
                 ],
-            ],
-            'verbs' => [
-                'class' => VerbFilter::className(),
-                'actions' => [
-                    'logout' => ['post'],
-                ],
-            ],
+            ]
         ];
     }
 
@@ -74,7 +70,16 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $models = Blog::find()->all();
+
+        return $this->render('index', ['models' => $models]);
+    }
+
+    public function actionView($id)
+    {
+        $model = Blog::findOne($id);
+
+        return $this->render('view', ['model' => $model]);
     }
 
     /**
@@ -90,7 +95,7 @@ class SiteController extends Controller
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
+            return $this->redirect('/backend/site/index');
         } else {
             $model->password = '';
 
