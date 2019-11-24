@@ -21,6 +21,7 @@ $config = [
         'request' => [
             'csrfParam' => '_csrf-gad',
             'cookieValidationKey' => 'fzeqizbLovu2tLBZlporIBkFnDWlLS3Kgad',
+            'baseUrl'=> '',
         ],
         'user' => [
             'identityClass' => 'common\models\User',
